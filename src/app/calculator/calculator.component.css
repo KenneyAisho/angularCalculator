@@ -5,7 +5,7 @@ h1 {
 }
 
 .calculator {
-  background-color: white;
+  background-color: rgb(204, 217, 255);
   position: relative;
   margin: 7% auto auto auto;
   width: 400px;
@@ -44,9 +44,13 @@ button {
   color: white;
 }
 
+.long {
+  width: 165px;
+}
+
 input {
-  width: 400px;
-  height: 70px;
+  width: 360px;
+  height: 65px;
   text-align: right;
   font-size: 1.5em;
 }
