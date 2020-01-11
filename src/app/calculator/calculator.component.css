@@ -11,9 +11,42 @@ h1 {
   width: 400px;
   text-align: center;
   border-color: rgb(99, 94, 97);
-  border-radius: inset 2px 0px 10px -5px rgb(85, 80, 83),
+  border-radius: 20px;
+  box-shadow: inset 2px 0px 10px -5px rgb(85, 80, 83),
     inset -5px 0px 15px -5px rgb(85, 80, 83),
     inset 10px 0px 10px -12px rgb(85, 80, 83),
     inset -2px 0px 4px 2px rgb(85, 80, 83),
-    inset -2px 0px 10px 0px rgb(85, 80, 83),
+    inset -2px 0px 10px 0px rgb(85, 80, 83);
+}
+
+.result {
+  border-radius: 8px;
+}
+
+button {
+  border-radius: 8px;
+  width: 80px;
+  height: 65px;
+  font-size: 20px;
+  border: 2px solid;
+  border-color: rgb(85, 80, 83);
+  margin: 2px 2px 8px 2px;
+  transition-duration: 0.2s;
+  box-shadow: inset 5px 0 15px -5px rgb(109, 100, 104),
+    inset -3px 0 15px -5px rgb(109, 100, 104),
+    inset 0 -5px 0 -3px rgb(109, 100, 104),
+    inset 0 0 2px 2px rgb(109, 100, 104),
+    inset 0 5px 15px 0 rgb(109, 100, 104);
+}
+
+.calcButtons:hover {
+  background-color: rgb(140, 135, 135);
+  color: white;
+}
+
+input {
+  width: 400px;
+  height: 70px;
+  text-align: right;
+  font-size: 1.5em;
 }
